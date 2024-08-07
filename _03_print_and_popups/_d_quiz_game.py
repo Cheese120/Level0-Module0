@@ -17,11 +17,12 @@ if __name__ == '__main__':
     if questionone=='99':
         score+=1
     #      // 4.  if the user's answer was correct, add one to their score 
- 
-    # MAKE MORE QUESTIONS. Ask more questions by repeating the above 
+    questiontwo=simpledialog.askstring(title='question 2', prompt="what is the product of 9 and 26?")
+    if questiontwo=='234':
+        score+=1
+    # MAKE MORE QUESTIONS. Ask more questions by repeating the above
     #      // Option: Subtract a point from their score for a wrong answer
- finalscore=score
     # After all the questions have been asked, tell the user their final score
     # remember to convert your variable to a string using the str() function 
-    messagebox.showinfo('Final Score', ""+finalscore+"")
+    messagebox.showinfo (message="Score is " +str(score))
     # Run the window's .mainloop() method
