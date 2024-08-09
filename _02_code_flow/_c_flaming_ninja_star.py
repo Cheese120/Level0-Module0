@@ -30,7 +30,7 @@ if __name__ == '__main__':
     yuta.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-    for i in range(25):
+    for i in range(41):
         # Set the turtle .fillcolor() to orange
         yuta.fillcolor('orange')
         yuta.pencolor('black')
